@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import filedialog
 import networkx as nx
 import matplotlib.pyplot as plt
-from community import community_louvain
+from community import community_louvain  # Make sure to install python-louvain
 
 def browse_files():
     filename = filedialog.askopenfilename(initialdir="data_csv", title="Chọn file CSV",
@@ -28,11 +28,18 @@ def browse_files():
             partition = community_louvain.best_partition(G)
 
             unique_clusters = set(partition.values())
-            cluster_colors = plt.cm.tab10.colors[:len(unique_clusters)]
+            num_colors = 20  # Adjust the number of colors here
 
-            cluster_color_mapping = {cluster: color for cluster, color in zip(unique_clusters, cluster_colors)}
+            cluster_colors = plt.cm.tab20.colors  # Use tab20 color map
 
-            colors = [cluster_color_mapping[partition[n]] for n in G.nodes()]
+            # Handle case when number of clusters > number of available colors
+            if len(unique_clusters) > num_colors:
+                print("Số lượng cụm lớn hơn số lượng màu sẵn có. Một số cụm có thể có màu trùng nhau.")
+                colors = [cluster_colors[i % num_colors] for i in partition.values()]
+            else:
+                cluster_colors = cluster_colors[:len(unique_clusters)]
+                cluster_color_mapping = {cluster: color for cluster, color in zip(unique_clusters, cluster_colors)}
+                colors = [cluster_color_mapping[cluster] for cluster in partition.values()]
 
             plt.figure(figsize=(10, 8))
             pos = nx.spring_layout(G)
@@ -50,7 +57,6 @@ def browse_files():
 
 root = tk.Tk()
 root.title("Tạo đồ thị mối liên hệ")
-
 root.geometry("300x100")
 
 frame = tk.Frame(root)
