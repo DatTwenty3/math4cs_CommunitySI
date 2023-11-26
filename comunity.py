@@ -5,6 +5,7 @@ from tkinter import filedialog
 import networkx as nx
 import matplotlib.pyplot as plt
 from community import community_louvain  # Make sure to install python-louvain
+import time
 
 def browse_files():
     filename = filedialog.askopenfilename(initialdir="data_csv", title="Chọn file CSV",
@@ -25,14 +26,15 @@ def browse_files():
                         if row[fieldnames[i]] and row[fieldnames[i + 1]]:
                             G.add_edge(row[fieldnames[i]], row[fieldnames[i + 1]])
 
+            start_time = time.time()
+
             partition = community_louvain.best_partition(G)
 
             unique_clusters = set(partition.values())
-            num_colors = 20  # Adjust the number of colors here
+            num_colors = 20
 
-            cluster_colors = plt.cm.tab20.colors  # Use tab20 color map
+            cluster_colors = plt.cm.tab20.colors
 
-            # Handle case when number of clusters > number of available colors
             if len(unique_clusters) > num_colors:
                 print("Số lượng cụm lớn hơn số lượng màu sẵn có. Một số cụm có thể có màu trùng nhau.")
                 colors = [cluster_colors[i % num_colors] for i in partition.values()]
@@ -47,6 +49,11 @@ def browse_files():
             nx.draw_networkx_nodes(G, pos, node_color=colors, node_size=500)
             nx.draw_networkx_edges(G, pos, width=1.0, alpha=0.5)
             nx.draw_networkx_labels(G, pos, font_size=10, font_weight='bold')
+
+            end_time = time.time()
+            elapsed_time = end_time - start_time
+
+            plt.text(0.5, -0.05, f"Thời gian thực hiện đồ thị: {elapsed_time:.2f} giây", ha='center', transform=plt.gca().transAxes)
 
             graph_window = plt.get_current_fig_manager().window
             graph_window.title(f"Đồ thị mối liên hệ - {os.path.basename(filename)}")
