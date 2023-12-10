@@ -1,0 +1,100 @@
+code_module,code_presentation,id_student,gender,region,highest_education,imd_band,age_band,num_of_prev_attempts,studied_credits,disability,final_result
+9,2013J,647,M,East Anglian Region,HE Qualification,90-100%,55<=,0,240,N,Pass
+1,2013J,500,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
+0,2013J,891,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+4,2013J,452,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
+9,2013J,121,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+9,2013J,857,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+4,2013J,976,M,Scotland,HE Qualification,30-40%,0-35,0,60,N,Pass
+2,2013J,398,F,North Western Region,A Level or Equivalent,90-100%,0-35,0,120,N,Pass
+8,2013J,435,F,East Anglian Region,A Level or Equivalent,70-80%,0-35,0,90,N,Pass
+0,2013J,883,M,North Region,Post Graduate Qualification,,55<=,0,60,N,Pass
+6,2013J,460,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+5,2013J,474,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
+3,2013J,568,M,East Anglian Region,Lower Than A Level,60-70%,35-55,0,60,N,Pass
+5,2013J,530,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
+9,2013J,158,M,Scotland,Lower Than A Level,40-50%,35-55,0,60,N,Pass
+4,2013J,610,F,East Anglian Region,A Level or Equivalent,70-80%,0-35,0,60,N,Withdrawn
+7,2013J,217,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+5,2013J,230,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+5,2013J,651,M,East Anglian Region,A Level or Equivalent,20-Oct,35-55,0,150,N,Fail
+8,2013J,875,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+1,2013J,905,M,East Midlands Region,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+3,2013J,131,M,North Western Region,HE Qualification,0-10%,0-35,0,60,N,Pass
+7,2013J,157,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Withdrawn
+9,2013J,985,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+5,2013J,428,M,Yorkshire Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
+6,2013J,588,M,South Region,Lower Than A Level,80-90%,35-55,0,60,N,Pass
+6,2013J,627,M,North Western Region,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+2,2013J,910,M,London Region,HE Qualification,60-70%,0-35,0,60,N,Pass
+7,2013J,215,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+8,2013J,751,M,South Region,HE Qualification,80-90%,35-55,0,60,N,Withdrawn
+0,2013J,109,M,East Midlands Region,Lower Than A Level,20-30%,0-35,0,60,N,Pass
+7,2013J,208,M,East Anglian Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+3,2013J,233,F,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+8,2013J,626,M,Yorkshire Region,Lower Than A Level,60-70%,35-55,0,60,N,Pass
+0,2013J,222,F,North Region,Post Graduate Qualification,,35-55,0,60,N,Pass
+4,2013J,462,M,Yorkshire Region,HE Qualification,60-70%,35-55,0,60,N,Pass
+8,2013J,515,M,Wales,HE Qualification,0-10%,0-35,0,60,N,Pass
+7,2013J,388,M,East Anglian Region,A Level or Equivalent,70-80%,35-55,0,60,N,Pass
+0,2013J,442,M,East Midlands Region,HE Qualification,30-40%,0-35,0,120,N,Pass
+6,2013J,124,M,South Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+6,2013J,972,F,East Midlands Region,A Level or Equivalent,40-50%,0-35,0,180,N,Pass
+4,2013J,762,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,0,60,N,Withdrawn
+9,2013J,933,F,East Anglian Region,Lower Than A Level,80-90%,35-55,0,120,N,Pass
+9,2013J,957,F,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+4,2013J,241,F,East Anglian Region,Lower Than A Level,20-30%,0-35,0,180,N,Withdrawn
+0,2013J,553,F,South East Region,Lower Than A Level,90-100%,35-55,0,60,Y,Withdrawn
+5,2013J,964,M,South West Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+1,2013J,672,F,East Midlands Region,A Level or Equivalent,30-40%,0-35,0,240,N,Pass
+6,2013J,798,M,South West Region,A Level or Equivalent,90-100%,0-35,0,345,N,Withdrawn
+7,2013J,673,F,North Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
+1,2013J,474,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+6,2013J,886,M,South West Region,HE Qualification,60-70%,0-35,0,120,N,Pass
+1,2013J,112,F,West Midlands Region,A Level or Equivalent,20-30%,0-35,0,60,Y,Fail
+3,2013J,737,M,North Region,Lower Than A Level,60-70%,0-35,0,120,N,Fail
+0,2013J,777,F,North Region,Lower Than A Level,80-90%,0-35,0,90,N,Withdrawn
+2,2013J,534,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+5,2013J,264,F,London Region,A Level or Equivalent,80-90%,0-35,0,150,N,Pass
+9,2013J,268,M,London Region,A Level or Equivalent,0-10%,35-55,0,420,N,Pass
+9,2013J,268,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+2,2013J,611,F,East Anglian Region,Lower Than A Level,70-80%,0-35,0,60,N,Withdrawn
+2,2013J,678,F,South West Region,A Level or Equivalent,90-100%,0-35,0,60,N,Pass
+2,2013J,454,M,East Midlands Region,A Level or Equivalent,40-50%,35-55,0,60,N,Withdrawn
+9,2013J,268,M,Scotland,A Level or Equivalent,70-80%,0-35,0,60,N,Pass
+5,2013J,834,F,Yorkshire Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+5,2013J,914,F,West Midlands Region,Lower Than A Level,20-Oct,35-55,0,60,N,Pass
+0,2013J,234,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+7,2013J,749,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+9,2013J,478,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+1,2013J,986,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+5,2013J,148,M,North Western Region,HE Qualification,70-80%,35-55,0,60,N,Pass
+1,2013J,512,F,North Western Region,A Level or Equivalent,80-90%,0-35,0,180,N,Fail
+5,2013J,123,M,South West Region,A Level or Equivalent,30-40%,0-35,0,120,N,Pass
+3,2013J,840,F,South West Region,A Level or Equivalent,80-90%,35-55,0,120,N,Withdrawn
+6,2013J,451,F,South West Region,A Level or Equivalent,60-70%,0-35,0,60,N,Pass
+9,2013J,310,M,London Region,A Level or Equivalent,20-Oct,0-35,0,180,N,Pass
+4,2013J,508,M,South West Region,HE Qualification,80-90%,35-55,0,170,N,Pass
+3,2013J,409,M,London Region,HE Qualification,20-Oct,0-35,0,120,N,Fail
+0,2013J,846,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+9,2013J,594,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+3,2013J,249,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,0,120,N,Withdrawn
+9,2013J,447,M,Scotland,A Level or Equivalent,90-100%,0-35,0,120,N,Pass
+7,2013J,914,F,South West Region,Lower Than A Level,90-100%,0-35,0,60,N,Pass
+3,2013J,985,M,London Region,A Level or Equivalent,90-100%,0-35,0,60,N,Withdrawn
+5,2013J,902,M,London Region,Lower Than A Level,50-60%,35-55,0,60,N,Pass
+5,2013J,406,F,Wales,A Level or Equivalent,30-40%,0-35,0,60,N,Withdrawn
+1,2013J,406,M,South West Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+6,2013J,439,M,East Anglian Region,A Level or Equivalent,40-50%,0-35,0,90,Y,Fail
+7,2013J,322,F,London Region,A Level or Equivalent,20-Oct,35-55,0,60,N,Distinction
+3,2013J,106,M,Ireland,HE Qualification,,0-35,0,180,N,Fail
+2,2013J,275,M,London Region,HE Qualification,60-70%,0-35,0,60,N,Pass
+4,2013J,310,M,East Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+8,2013J,620,M,West Midlands Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
+0,2013J,251,M,East Midlands Region,A Level or Equivalent,50-60%,0-35,0,60,N,Pass
+1,2013J,369,M,London Region,A Level or Equivalent,40-50%,0-35,0,240,N,Pass
+7,2013J,481,M,Yorkshire Region,A Level or Equivalent,90-100%,0-35,0,240,N,Withdrawn
+7,2013J,242,M,Scotland,Post Graduate Qualification,90-100%,0-35,0,60,N,Pass
+0,2013J,216,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+2,2013J,552,M,London Region,HE Qualification,80-90%,0-35,0,80,N,Pass
+4,2013J,338,M,South Region,A Level or Equivalent,90-100%,0-35,0,120,N,Pass
