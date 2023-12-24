@@ -39,8 +39,13 @@ for index, row in df.iterrows():
                 and (row['id_student'] != row2['id_student'])
                 and (G.has_edge(row['id_student'], row2['id_student']) == False)):
             #print(f"id_student:{row['id_student']}", f"id_student2:{row2['id_student']}")
-            G.add_edge(row['id_student'], row2['id_student'])
-
+            G.add_edge(row['id_student'], row2['id_student'], weight=1)
+        elif ((row['code_module'] == row2['code_module'])
+              and (row['id_student'] != row2['id_student'])
+              and (G.has_edge(row['id_student'], row2['id_student']) == True)):
+            edgeWeight = G[row['id_student']][row2['id_student']]['weight']
+            edgeWeight = edgeWeight + 1
+            G[row['id_student']][row2['id_student']]['weight'] = edgeWeight
 
 
 
@@ -52,6 +57,7 @@ print("==>Begin run girvan_newman>>")
 comp = girvan_newman(G)
 
 print("==>Finished run girvan_newman")
+print("==>Collecting data")
 draw_community_step = 0
 communitiesList = []
 
